@@ -1,53 +1,61 @@
 .row-header {
-    margin: 0px auto;
-    padding: 0px auto;
+  margin: 0px auto;
+  padding: 0px auto;
 }
 
 a {
-    color: #fffb00;
+  color: #fffb00;
 }
 
 .row-content {
-    margin: 0px auto;
-    padding: 50px 0px 50px 0px;
-    border-bottom: 1px ridge;
-    min-height: 400px;
-    align-items: center;
+  margin: 0px auto;
+  padding: 50px 0px 50px 0px;
+  border-bottom: 1px ridge;
+  min-height: 400px;
+  align-items: center;
 }
 
 .footer {
-    background-color: #081e3f;
-    color: #ffcc00;
-    margin: 0px auto;
-    padding: 20px 0px 20px 0px;
+  background-color: #081e3f;
+  color: #ffcc00;
+  margin: 0px auto;
+  padding: 20px 0px 20px 0px;
 }
 
 .jumbotron {
-    padding: 70px 30px 70px 30px;
-    margin: 0px auto;
-    background: #081e3f;
-    color: #ffcc00;
+  padding: 70px 30px 70px 30px;
+  margin: 0px auto;
+  background: #081e3f;
+  color: #ffcc00;
 }
 
 address {
-    font-size: 80%;
-    margin: 0px;
-    color: #ffcc00;
+  font-size: 80%;
+  margin: 0px;
+  color: #ffcc00;
 }
 
 body {
-    padding: 50px 0px 0px 0px;
-    z-index: 0;
+  padding: 50px 0px 0px 0px;
+  z-index: 0;
 }
 
 .navbar-light {
-    background-color: #ffcc00;
-    color: #081e3f;
+  background-color: #ffcc00;
+  color: #081e3f;
 }
 
 .breadcrumb a:link,
-a:visited,
-a:hover,
-a:active {
-    color: #000000;
+.breadcrumb a:visited,
+.breadcrumb a:hover,
+.breadcrumb a:active {
+  color: #000000;
+}
+
+.btn-youtube {
+  background-color: #fa2a2a;
+}
+
+.btn-mail {
+  background-color: #008cff;
 }
