@@ -65,3 +65,8 @@ body {
 #c-address a:active {
   color: #003cff;
 }
+
+#card-glance {
+  background-color: #081e3f;
+  color: #ffcc00;
+}
