@@ -29,8 +29,25 @@ a {
     color: #ffcc00;
 }
 
-.address {
+address {
     font-size: 80%;
     margin: 0px;
-    color: #0f0f0f;
+    color: #ffcc00;
+}
+
+body {
+    padding: 50px 0px 0px 0px;
+    z-index: 0;
+}
+
+.navbar-light {
+    background-color: #ffcc00;
+    color: #081e3f;
+}
+
+.breadcrumb a:link,
+a:visited,
+a:hover,
+a:active {
+    color: #000000;
 }
