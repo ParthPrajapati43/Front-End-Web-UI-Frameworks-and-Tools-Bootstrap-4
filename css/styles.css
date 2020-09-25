@@ -78,9 +78,16 @@ body {
   padding: 10px;
 }
 
-#navtabs a:link,
-#navtabs a:hover,
-#navtabs a:active,
-#navtabs a:visited {
+#cardhead,
+#cardhead a:visited {
   color: #000000;
+}
+
+#cardhead a:link {
+  color: #008cff;
+}
+
+#cardhead a:hover,
+#cardhead a:active {
+  color: #003cff;
 }
