@@ -112,3 +112,10 @@ body {
 .carousel-caption>h4 {
   color: #ffcc00;
 }
+
+#carouselButton {
+  right: 0px;
+  position: absolute;
+  bottom: 0px;
+  z-index: 1;
+}
