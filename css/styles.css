@@ -1,10 +1,12 @@
 a {
   color: #fffb00;
 }
+
 .row-header {
   margin: 0px auto;
   padding: 0px 0px;
 }
+
 .row-content {
   margin: 0px auto;
   padding: 50px 0px;
@@ -12,86 +14,105 @@ a {
   min-height: 400px;
   align-items: center;
 }
+
 .footer {
   background-color: #081e3f;
   color: #ffcc00;
   margin: 0px auto;
   padding: 20px 0px;
 }
+
 .jumbotron {
   margin: 0px auto;
   padding: 70px 30px;
   background: #081e3f;
   color: #ffcc00;
 }
+
 address {
   font-size: 80%;
   margin: 0px;
   color: #ffcc00;
 }
+
 body {
   padding: 50px 0px 0px 0px;
   z-index: 0;
 }
+
 .navbar-light {
   background-color: #ffcc00;
   color: #081e3f;
 }
+
 .breadcrumb a:link,
 .breadcrumb a:visited,
 .breadcrumb a:hover,
 .breadcrumb a:active {
   color: #000000;
 }
+
 #c-address,
 #c-address a:visited {
   color: #000000;
 }
+
 #c-address a:link {
   color: #008cff;
 }
+
 #c-address a:hover,
 #c-address a:active {
   color: #003cff;
 }
+
 #card-glance {
   background-color: #081e3f;
   color: #ffcc00;
 }
+
 .tab-content {
   border-left: 1px solid #ddd;
   border-right: 1px solid #ddd;
   border-bottom: 1px solid #ddd;
   padding: 10px;
 }
+
 #cardhead,
 #cardhead a:visited {
   color: #000000;
 }
+
 #cardhead a:link {
   color: #008cff;
 }
+
 #cardhead a:hover,
 #cardhead a:active {
   color: #003cff;
 }
+
 .carousel {
   background: #081e3f;
 }
+
 .carousel .carousel-item {
   height: 300px;
 }
+
 .carousel .carousel-item img {
   position: absolute;
   top: 0;
   left: 0;
   min-height: 300px;
 }
-.carousel-caption > p,
-.carousel-caption > h2,
-.carousel-caption > h4 {
+
+.carousel-caption>p,
+.carousel-caption>h2,
+.carousel-caption>h4 {
   color: #ffcc00;
 }
+
 #carouselButton {
   right: 0px;
   position: absolute;
