@@ -5,142 +5,142 @@ $carousel-item-height: 300px;
 $lt-gray: #ddd;
 $light-background: #d3d3d3;
 
-@mixin zero-margin ($pad-up-dn, $pad-left-right) {
-    margin: 0px auto;
-    padding: $pad-up-dn $pad-left-right;
+@mixin zero-margin($pad-up-dn, $pad-left-right) {
+  margin: 0px auto;
+  padding: $pad-up-dn $pad-left-right;
 }
 
 a {
-    color: $link-yellow;
+  color: $link-yellow;
 }
 
 .row-header {
-    @include zero-margin(0px, 0px);
+  @include zero-margin(0px, 0px);
 }
 
 .row-content {
-    @include zero-margin(50px, 0px);
-    border-bottom: 1px ridge;
-    min-height: 400px;
-    align-items: center;
+  @include zero-margin(50px, 0px);
+  border-bottom: 1px ridge;
+  min-height: 400px;
+  align-items: center;
 }
 
 .footer {
-    background-color: $background-blue;
-    color: $dark-yellow;
-    @include zero-margin(20px, 0px);
+  background-color: $background-blue;
+  color: $dark-yellow;
+  @include zero-margin(20px, 0px);
 }
 
 .jumbotron {
-    @include zero-margin(70px, 30px);
-    background: $background-blue;
-    color: $dark-yellow;
+  @include zero-margin(70px, 30px);
+  background: $background-blue;
+  color: $dark-yellow;
 }
 
 address {
-    font-size: 80%;
-    margin: 0px;
-    color: $dark-yellow;
+  font-size: 80%;
+  margin: 0px;
+  color: $dark-yellow;
 }
 
 body {
-    padding: 50px 0px 0px 0px;
-    z-index: 0;
+  padding: 50px 0px 0px 0px;
+  z-index: 0;
 }
 
 .navbar-light {
-    background-color: $dark-yellow;
-    color: $background-blue;
+  background-color: $dark-yellow;
+  color: $background-blue;
 }
 
 .breadcrumb a:link,
 .breadcrumb a:visited,
 .breadcrumb a:hover,
 .breadcrumb a:active {
-    color: #000000;
+  color: #000000;
 }
 
 #c-address,
 #c-address a:visited {
-    color: #000000;
+  color: #000000;
 }
 
 #c-address a:link {
-    color: #008cff;
+  color: #008cff;
 }
 
 #c-address a:hover,
 #c-address a:active {
-    color: #003cff;
+  color: #003cff;
 }
 
 #card-glance {
-    background-color: $background-blue;
-    color: $dark-yellow;
+  background-color: $background-blue;
+  color: $dark-yellow;
 }
 
 .tab-content {
-    border-left: 1px solid $lt-gray;
-    border-right: 1px solid $lt-gray;
-    border-bottom: 1px solid $lt-gray;
-    padding: 10px;
+  border-left: 1px solid $lt-gray;
+  border-right: 1px solid $lt-gray;
+  border-bottom: 1px solid $lt-gray;
+  padding: 10px;
 }
 
 #cardhead,
 #cardhead a:visited {
-    color: #000000;
+  color: #000000;
 }
 
 #cardhead a:link {
-    color: #008cff;
+  color: #008cff;
 }
 
 #cardhead a:hover,
 #cardhead a:active {
-    color: #003cff;
+  color: #003cff;
 }
 
 .carousel {
-    background: $background-blue;
+  background: $background-blue;
 
-    .carousel-item {
-        height: $carousel-item-height;
+  .carousel-item {
+    height: $carousel-item-height;
 
-        img {
-            position: absolute;
-            top: 0;
-            left: 0;
-            min-height: 300px;
-        }
+    img {
+      position: absolute;
+      top: 0;
+      left: 0;
+      min-height: 300px;
     }
+  }
 }
 
-.carousel-caption>p,
-.carousel-caption>h2,
-.carousel-caption>h4 {
-    color: $dark-yellow;
+.carousel-caption > p,
+.carousel-caption > h2,
+.carousel-caption > h4 {
+  color: $dark-yellow;
 }
 
 #carouselButton {
-    right: 0px;
-    position: absolute;
-    bottom: 0px;
-    z-index: 1;
+  right: 0px;
+  position: absolute;
+  bottom: 0px;
+  z-index: 1;
 }
 
 .modal-header {
-    background: $background-blue;
-    color: $light-background;
+  background: $background-blue;
+  color: $light-background;
 
-    button {
-        color: $light-background;
-    }
+  button {
+    color: $light-background;
+  }
 }
 
 .modal-body {
-    background: $light-background;
+  background: $light-background;
 }
 
 .modal-footer {
-    background: $light-background;
+  background: $light-background;
 }
