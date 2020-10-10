@@ -119,3 +119,20 @@ body {
   bottom: 0px;
   z-index: 1;
 }
+
+.modal-header {
+  background: #081e3f;
+  color: #d3d3d3;
+}
+
+.modal-header button {
+  color: #d3d3d3;
+}
+
+.modal-body {
+  background: #d3d3d3;
+}
+
+.modal-footer {
+  background: #d3d3d3;
+}

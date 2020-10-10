@@ -3,6 +3,7 @@ $background-blue: #081e3f;
 $link-yellow: #fffb00;
 $carousel-item-height: 300px;
 $lt-gray: #ddd;
+$light-background: #d3d3d3;
 
 @mixin zero-margin ($pad-up-dn, $pad-left-right) {
     margin: 0px auto;
@@ -125,4 +126,21 @@ body {
     position: absolute;
     bottom: 0px;
     z-index: 1;
+}
+
+.modal-header {
+    background: $background-blue;
+    color: $light-background;
+
+    button {
+        color: $light-background;
+    }
+}
+
+.modal-body {
+    background: $light-background;
+}
+
+.modal-footer {
+    background: $light-background;
 }

@@ -3,6 +3,7 @@
   <head>
     <title>Ristorante Con Fusion: About Us</title>
     <!-- Adding Bootstrap CSS -->
+    <!-- build:css css/main.css -->
     <link
       rel="stylesheet"
       href="node_modules/bootstrap/dist/css/bootstrap.min.css"
@@ -15,8 +16,8 @@
       rel="stylesheet"
       href="node_modules/bootstrap-social/bootstrap-social.css"
     />
-    <!-- Adding manually done CSS -->
     <link rel="stylesheet" href="css/styles.css" />
+    <!-- endbuild -->
   </head>
 
   <body>
@@ -151,7 +152,12 @@
             <div class="card">
               <div class="card-header" role="tab" id="peterhead">
                 <h3 class="mb-0">
-                  <a data-toggle="collapse" data-target="#peter" id="cardhead">
+                  <a
+                    data-toggle="collapse"
+                    data-target="#peter"
+                    id="cardhead"
+                    type="button"
+                  >
                     Peter Pan <small>Chief Epicurious Officer</small>
                   </a>
                 </h3>
@@ -176,7 +182,12 @@
             <div class="card">
               <div class="card-header" role="tab" id="dannyhead">
                 <h3 class="mb-0">
-                  <a data-toggle="collapse" data-target="#danny" id="cardhead">
+                  <a
+                    data-toggle="collapse"
+                    data-target="#danny"
+                    id="cardhead"
+                    type="button"
+                  >
                     Dhanasekaran Witherspoon <small>Chief Food Officer</small>
                   </a>
                 </h3>
@@ -201,7 +212,12 @@
             <div class="card">
               <div class="card-header" role="tab" id="agumbehead">
                 <h3 class="mb-0">
-                  <a data-toggle="collapse" data-target="#agumbe" id="cardhead">
+                  <a
+                    data-toggle="collapse"
+                    data-target="#agumbe"
+                    id="cardhead"
+                    type="button"
+                  >
                     Agumbe Tang <small>Chief Taste Officer</small>
                   </a>
                 </h3>
@@ -227,6 +243,7 @@
                     data-toggle="collapse"
                     data-target="#alberto"
                     id="cardhead"
+                    type="button"
                   >
                     Alberto Somayya <small>Executive Chef</small>
                   </a>
@@ -362,8 +379,11 @@
     </footer>
     <!-- Adding all required bootstrap javascript files -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS. -->
+    <!-- build:js js/main.js -->
     <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
     <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="js/scripts.js"></script>
+    <!-- endbuild -->
   </body>
 </html>
